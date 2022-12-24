@@ -1,0 +1,19 @@
+#STUDIO
+#ADATA HDD
+#rsync -avh /Volumes/store/Studio/ /Volumes/store\ backup/Studio/ --delete
+
+#rsync -avh /Volumes/store/Studio/ /Volumes/store\ 1/Studio/ --delete
+
+#GO PRO
+rsync -avh /Volumes/store/GoPro/ /Volumes/Media/GoPro/ --dry-run
+#gGIT
+rsync -avh /Volumes/store/Docs/ /Volumes/store\ 1/Docs/ --delete
+
+§/Volumes/store/Docs/github/  /Volumes/store\ 1/github/ --delete
+#
+#rsync -auz /Volumes/store/GoPro/ /Volumes/store\ backup/GoPro/
+#rsync -auz /Volumes/store/GoPro-sorted/ /Volumes/store\ backup/GoPro-sorted/
+#rsync -auz /Volumes/store/Studio/ /Volumes/store\ backup/Studio/
+#rsync -auz /Volumes/store/Videos/ /Volumes/store\ backup/Videos/
+#rsync -auz /Volumes/store/Docs/ /Volumes/store\ backup/Docs/
+#rsync -auz /Volumes/store/Media/ /Volumes/store\ backup/Media/

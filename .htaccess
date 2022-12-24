@@ -1,0 +1,16 @@
+Options -Indexes
+RewriteOptions inherit
+# BEGIN WpFastestCache
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^rumen-lishkov\.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.rumen-lishkov.com/$1 [R,L]
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+AddType application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
