@@ -320,8 +320,8 @@ Clearfix
 	.section.blue 																	{ background:#4ca5d0; }
 	.section.green 																	{ background:#6ca338; }
 	.section.yellow 																{ background:#ffbc38; }
-	.section.red 																	{ background:#f3585b; }
-
+	.section.red 																		{ background:#f3585b; }
+	.section.dark																		{ background:#252020; }
 	.section.no-pad 																{ padding:0; }
 
 	.heading-section 																{ text-align:center; }

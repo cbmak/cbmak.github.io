@@ -4,9 +4,9 @@
 
 <url>
 
-    <loc>http://www.rumen.pro/</loc>
+    <loc>http://www.rumen-lishkov.com /</loc>
 
-    <lastmod>2018-02-02</lastmod>
+    <lastmod>2018-09-09</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -15,9 +15,9 @@
 </url>
 <url>
 
-    <loc>http://www.rumen.pro/#experience</loc>
+    <loc>http://www.rumen-lishkov.com /#about</loc>
 
-    <lastmod>2018-02-02</lastmod>
+    <lastmod>2018-09-09</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -26,9 +26,31 @@
 </url>
 <url>
 
-    <loc>http://www.rumen.pro/#blogs</loc>
+    <loc>http://www.rumen-lishkov.com /#experience</loc>
 
-    <lastmod>2018-02-02</lastmod>
+    <lastmod>2018-09-09</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.6</priority>
+
+</url>
+<url>
+
+    <loc>http://www.rumen-lishkov.com /#techniques</loc>
+
+    <lastmod>2018-09-09</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.6</priority>
+
+</url>
+<url>
+
+    <loc>http://www.rumen-lishkov.com /#skills</loc>
+
+    <lastmod>2018-09-09</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -37,9 +59,20 @@
 </url>
 <url>
 
-    <loc>http://www.rumen.pro/#skills</loc>
+    <loc>http://www.rumen-lishkov.com /#portfolio</loc>
 
-    <lastmod>2018-02-02</lastmod>
+    <lastmod>2018-09-09</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+
+</url>
+<url>
+
+    <loc>http://www.rumen-lishkov.com /#services</loc>
+
+    <lastmod>2018-09-09</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -48,9 +81,31 @@
 </url>
 <url>
 
-    <loc>http://www.rumen.pro/#techniques</loc>
+    <loc>http://www.rumen-lishkov.com /#blogs</loc>
 
-    <lastmod>2018-02-02</lastmod>
+    <lastmod>2018-09-09</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.7</priority>
+
+</url>
+<url>
+
+    <loc>http://www.rumen-lishkov.com /#clients</loc>
+
+    <lastmod>2018-09-09</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    <priority>0.7</priority>
+
+</url>
+<url>
+
+    <loc>http://www.rumen-lishkov.com /#contact</loc>
+
+    <lastmod>2018-09-09</lastmod>
 
     <changefreq>monthly</changefreq>
 
