@@ -13,16 +13,13 @@ pipeline {
         }
 
         stage('Build and Test') {
-           // Add a when block to trigger the pipeline only for merged pull requests
+        // Add a when block to trigger the pipeline only for merged pull requests
             when {
                 expression {
-                    // Check if the event is a pull request event and if the pull request is merged
-                    def buildCauses = currentBuild.rawBuild.buildCauses
-                    return buildCauses.any {
-                        it.getClass().name == 'org.jenkinsci.plugins.workflow.cps.replay.ReplayCause'
-                    } && buildCauses.find { it.getShortDescription() == 'Merged' } != null
+                    // Check if the CHANGE_ID and CHANGE_TARGET environment variables are present
+                    return (env.CHANGE_ID != null && env.CHANGE_TARGET != null)
                 }
-            }            
+            }           
             steps {
                 sh 'printenv'
             }
