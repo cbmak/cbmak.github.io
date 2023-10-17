@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('check') {
       steps {
-        sh 'printenv'
+        sh '''
+          printenv
+        '''
       }
     }
   }
