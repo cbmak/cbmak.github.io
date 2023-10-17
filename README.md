@@ -14,6 +14,6 @@
 npm install
 npm start
 ```
-## Open the app
+## Open the app 
 
  [http://localhost:5000](https://localhost:5000)
